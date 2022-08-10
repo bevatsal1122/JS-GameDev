@@ -6,3 +6,8 @@
    left: 50%;
    transform: translate(-50%, -50%);
 }
+
+#animation-type, #selectState {
+   font-size: 20px;
+   font-weight: 800;
+}
