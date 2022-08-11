@@ -5,12 +5,15 @@ const CANVAS_HEIGHT = canvas.height = 700;
 let gameSpeed = 22;
 
 const backgroundLayer0 = new Image();
-backgroundLayer0.src = "assets/backgroundLayers/layer-0.png";
+backgroundLayer0.src = "assets/layer-0.png";
 const backgroundLayer1 = new Image();
-backgroundLayer1.src = "assets/backgroundLayers/layer-1.png";const backgroundLayer2 = new Image();
-backgroundLayer2.src = "assets/backgroundLayers/layer-2.png";const backgroundLayer3 = new Image();
-backgroundLayer3.src = "assets/backgroundLayers/layer-3.png";const backgroundLayer4 = new Image();
-backgroundLayer4.src = "assets/backgroundLayers/layer-4.png";
+backgroundLayer1.src = "assets/layer-1.png";
+const backgroundLayer2 = new Image();
+backgroundLayer2.src = "assets/layer-2.png";
+const backgroundLayer3 = new Image();
+backgroundLayer3.src = "assets/layer-3.png";
+const backgroundLayer4 = new Image();
+backgroundLayer4.src = "assets/layer-4.png";
 let x = 0;
 let y = 2400;
 
