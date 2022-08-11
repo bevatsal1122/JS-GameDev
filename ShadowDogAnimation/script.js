@@ -14,7 +14,7 @@ let spriteAnimations = [];
 const animationStates = [
    {
       name: "idle",
-      frames: 6
+      frames: 7
    },
    {
       name: "jump",
@@ -73,8 +73,8 @@ animationDropdown.addEventListener('change', (e) => {
 })
 
 function animate() {
-   const maxCast = spriteAnimations[playerState].loc.length;
    context.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+   const maxCast = spriteAnimations[playerState].loc.length;
    let positionX = Math.floor(gameFrame / staggerFrames) % maxCast;
    let frameX = positionX * spriteWidth;
    let frameY = spriteAnimations[playerState].loc[positionX].y;
